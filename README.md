@@ -4,7 +4,7 @@ Custom Switch we can change every thing with both ON or OFF thumb icon,backgroun
 
 ### Gradle 
 Add it in your settings.gradle.kts at the end of repositories:
-```
+```gradle
 dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 		repositories {
