@@ -11,3 +11,11 @@ dependencies {
     implementation 'com.github.JayeshInfyom:CustomSwitch:1.0.0'
 }
 ```
+
+Add the dependency below to your module's `build.gradle.kts` file:
+
+```gradle
+dependencies {
+    implementation ("com.github.JayeshInfyom:CustomSwitch:1.0.0")
+}
+```
