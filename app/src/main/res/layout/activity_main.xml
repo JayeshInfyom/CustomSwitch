@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6B5B5"
+    tools:context=".MainActivity">
+
+<!--   <com.example.simplecar.View.GameView-->
+<!--       android:id="@+id/gameView"-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="match_parent"/>-->
+
+   <com.example.infyomswitch.View.InfyomSwitch
+       android:id="@+id/toggleView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_margin="@dimen/_10sdp"
+       app:on="true"
+       app:textOn="OFF"
+       app:textOff="ON"
+       app:textOnColor="@color/white"
+       app:textOffColor="#A4A4A4"
+       app:colorOff="@color/colorAccent"
+       app:colorOn="#D9D8D8"
+       app:thumbOffIcon="@drawable/ic_thumb_off"
+       app:thumbOnIcon="@drawable/ic_thumb_on"
+       />
+
+</RelativeLayout>
