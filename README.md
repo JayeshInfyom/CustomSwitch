@@ -3,7 +3,6 @@
 **Custom Switch** is a highly customizable Android library that allows you to fully customize the appearance and behavior of a switch. You can change the ON/OFF thumb icon, background color, label color, and more.
 
 [![JitPack](https://jitpack.io/v/JayeshInfyom/CustomSwitch.svg)](https://jitpack.io/#JayeshInfyom/CustomSwitch)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Features
 - Fully customizable switch thumb icon for ON/OFF states.
