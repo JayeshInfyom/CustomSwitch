@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 ```
 Add the JitPack repository to your `build.gradle.kts` file:
 
-```
+```gradle
 dependencies {
     implementation("com.github.JayeshInfyom:CustomSwitch:1.0.0")
 }
@@ -35,7 +35,7 @@ dependencies {
 
 Add the CustomSwitch to your layout file:
 
-```
+```xml
  <com.example.infyomswitch.View.InfyomSwitch
        android:id="@+id/toggleView"
        android:layout_width="wrap_content"
