@@ -23,3 +23,24 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
+```
+Add the JitPack repository to your `build.gradle.kts` file:
+
+```
+dependencies {
+    implementation("com.github.JayeshInfyom:CustomSwitch:1.0.0")
+}
+```
+#Usage
+
+```
+ <com.github.angads25.toggle.widget.LabeledSwitch
+        android:id="@+id/switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="14sp"
+        app:on="false"
+        app:colorBorder="@color/colorAccent"/>
+
+```
