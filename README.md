@@ -31,7 +31,7 @@ dependencies {
     implementation("com.github.JayeshInfyom:CustomSwitch:1.0.0")
 }
 ```
-#Usage
+## Usage
 
 Add the CustomSwitch to your layout file:
 
