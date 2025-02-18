@@ -40,7 +40,7 @@ Add the CustomSwitch to your layout file:
        android:id="@+id/toggleView"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-      android:layout_margin="@dimen/_10sdp"
+       android:layout_margin="@dimen/_10sdp"
        app:on="true"
        app:textOn="OFF"
        app:textOff="ON"
