@@ -1,32 +1,26 @@
-Custom Switch
+# Custom Switch
 
-Custom Switch we can change every thing with both ON or OFF thumb icon,background color,lable color
+**Custom Switch** is a highly customizable Android library that allows you to fully customize the appearance and behavior of a switch. You can change the ON/OFF thumb icon, background color, label color, and more.
 
-### Gradle 
-Add it in your settings.gradle.kts at the end of repositories:
+[![JitPack](https://jitpack.io/v/JayeshInfyom/CustomSwitch.svg)](https://jitpack.io/#JayeshInfyom/CustomSwitch)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+## Features
+- Fully customizable switch thumb icon for ON/OFF states.
+- Customizable background color.
+- Customizable label color.
+- Easy integration with Gradle.
+- Lightweight and optimized for performance.
+
+## Installation
+
+Add the JitPack repository to your `settings.gradle.kts` file:
+
 ```gradle
 dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url = uri("https://jitpack.io") }
-		}
-	}
-```
-
-
-Add the dependency below to your module's `build.gradle` file:
-
-```gradle
-dependencies {
-    implementation 'com.github.JayeshInfyom:CustomSwitch:1.0.0'
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
 }
-```
-
-Add the dependency below to your module's `build.gradle.kts` file:
-
-```gradle
-dependencies {
-    implementation ("com.github.JayeshInfyom:CustomSwitch:1.0.0")
-}
-```
