@@ -33,14 +33,23 @@ dependencies {
 ```
 #Usage
 
+Add the CustomSwitch to your layout file:
+
 ```
- <com.github.angads25.toggle.widget.LabeledSwitch
-        android:id="@+id/switch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:textSize="14sp"
-        app:on="false"
-        app:colorBorder="@color/colorAccent"/>
+ <com.example.infyomswitch.View.InfyomSwitch
+       android:id="@+id/toggleView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_margin="@dimen/_10sdp"
+       app:on="true"
+       app:textOn="OFF"
+       app:textOff="ON"
+       app:textOnColor="@color/white"
+       app:textOffColor="#A4A4A4"
+       app:colorOff="@color/colorAccent"
+       app:colorOn="#D9D8D8"
+       app:thumbOffIcon="@drawable/ic_thumb_off"
+       app:thumbOnIcon="@drawable/ic_thumb_on"
+       />
 
 ```
