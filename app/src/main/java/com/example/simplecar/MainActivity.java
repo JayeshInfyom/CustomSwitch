@@ -24,5 +24,7 @@ public class MainActivity extends AppCompatActivity {
     void shivamfun(){
        String num="jayesh";
        String last="parmar";
+
+       int num4=3;
     }
 }
