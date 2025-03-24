@@ -1,6 +1,7 @@
 package com.example.simplecar;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.simplecar.databinding.ActivityMainBinding;
@@ -17,5 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Shivam commit
 
+    }
+
+
+    void shivamfun(){
+       String num="jayesh";
+       String last="parmar";
     }
 }
