@@ -24,5 +24,10 @@ public class MainActivity extends AppCompatActivity {
     void shivamfun(){
        String num="jayesh";
        String last="parmar";
+
+       String s1="parmar";
+       String s2="parmar";
+       String s3="parmar";
+       String s4="parmar";
     }
 }
